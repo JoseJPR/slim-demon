@@ -1,0 +1,29 @@
+{
+  "name": "slim-demon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.js",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoseJPR/slim-demon.git"
+  },
+  "keywords": [
+    "Node",
+    "Restart",
+    "Demon",
+    "Watcher",
+    "File",
+    "JavaScript"
+  ],
+  "author": "José J. Pérez Rivas <me@josejpr.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JoseJPR/slim-demon/issues"
+  },
+  "homepage": "https://github.com/JoseJPR/slim-demon#readme",
+  "dependencies": {
+    "pino": "^6.6.0",
+    "pino-pretty": "^4.2.1"
+  }
+}

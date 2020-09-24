@@ -1,0 +1,23 @@
+{
+  "name": "example-node-http-server-slim-demon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node .",
+    "start:watch": "node node_modules/slim-demon"
+  },
+  "demon": {
+    "rootDirectory": "./src",
+    "extensionsFile": [
+      "js"
+    ],
+    "mainApplication": "npm run start"
+  },
+  "dependencies": {
+    "slim-demon": "../",
+    "pino": "^6.6.0",
+    "pino-pretty": "^4.2.1"
+  }
+}
