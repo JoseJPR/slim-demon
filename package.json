@@ -1,7 +1,7 @@
 {
   "name": "slim-demon",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "😈 Slim Demon is a micro library that detects changes in the files of your NodeJS application and restart it quickly and automatically.",
   "main": "./src/index.js",
   "type": "module",
   "repository": {
