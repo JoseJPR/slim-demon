@@ -16,8 +16,10 @@
     "mainApplication": "npm run start"
   },
   "dependencies": {
-    "slim-demon": "../",
     "pino": "^6.6.0",
     "pino-pretty": "^4.2.1"
+  },
+  "devDependencies" : {
+    "slim-demon": "../"
   }
 }
