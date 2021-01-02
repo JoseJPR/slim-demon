@@ -30,7 +30,7 @@ You can define a directory and one or more types of files that will be listened 
 ### 1️⃣ Install this module into your project.
 
 ```bash
-npm i slim-demon --save-dev
+$npm i slim-demon --save-dev
 ```
 
 ### 2️⃣ Configure the demon
